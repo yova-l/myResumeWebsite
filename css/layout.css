@@ -1,3 +1,15 @@
+/* Mine Yova*/
+video {
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+ } 
+
+
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -33,7 +45,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
